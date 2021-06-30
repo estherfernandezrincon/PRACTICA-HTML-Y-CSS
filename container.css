@@ -1,0 +1,33 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-end;
+    margin-top: 6.25rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-bottom: 0;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
