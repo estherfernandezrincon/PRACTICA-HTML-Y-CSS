@@ -1,5 +1,5 @@
 .navbar{
-    background-color: black;
+    background-color: rgb(10, 10, 10);
     color: white;
     position: fixed;
     top: 0;
@@ -26,7 +26,9 @@
     display: inline-block;   
     margin: 0;
 
+
 }
+
 
 .navbar-item a {
     color: white;
@@ -38,13 +40,14 @@
     
 }
 
-.logo {
+.logo-img {
 
     height: 50px;
     line-height: 50px;
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: center;
+    background-color: rgb(32, 29, 29);
 }
 
 .buscador , .logout {
@@ -54,6 +57,11 @@
     margin-top: 1rem;
     padding: 1rem;
 
+}
+
+img  {
+    width:150px ;
+    height:220px;
 }
 
 
