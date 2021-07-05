@@ -1,24 +1,51 @@
 
-html {
-    font-size: 16px;
+.cine {
+    color: black;
+    text-align: center;
+    background: url(./img/perro.jpg)   no-repeat;
+    display: block;
+    padding: 5px;
+    margin-left: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 2rem;
+    position: relative;
+    
 }
 
-.cine {
-    color: white;
-    text-align: center;
+.navbar {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0; 
+}
+
+#logo {
+    display: inline-block;  
     
+
 }
 
 body {
     background: black;
+    background: url(./img/movie.jpg) top center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
 }
 
 .signin-container {
     position: fixed;
-    left: 50%;
+    left: 10%;
     top: 30%;
     right: 50%;
     bottom: 50%;
+
 
 
 }
@@ -29,34 +56,50 @@ body {
     left: 50%;
     top: 50%;
     right: 50%;
-    bottom: 50%;
+    bottom: 50%;   
 
 }
+
+#email , #password{
+    padding: 5px;
+   
+}
+
+
 
 .film {
     display: flex;
     justify-content: center;
-    
-    
-
 }
 
 img {
     border-style: groove;
     border-color: beige;
     max-width: 100%;
+
 }
 
 .btn {
     border-style:  double solid;
-    padding: 5px;
+    padding: 10px;
     width: 70px;
-    margin-top: 1rem;
-   
+    height: px
 }
 
 a {
     color: white;
     text-decoration: none;
     border:  1rem;
+    text-shadow: 
+    1px 1px 1px rgba(17, 17, 17, 0.35),
+    -1px 1px 1px rgba(17, 17, 17, 0.35),
+    1px -1px 1px rgba(17, 17, 17, 0.35),
+    -1px -1px 1px rgba(17, 17, 17, 0.35);
+}
+
+
+@media all and (min-width: 768px) {
+    .cine .signin-container {
+        text-align: center;
+    }
 }

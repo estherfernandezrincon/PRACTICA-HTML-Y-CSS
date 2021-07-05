@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,60 +8,175 @@
     <title>MENU</title>
 
     <link rel="stylesheet" href="reset.css">
-  
+    <link rel="stylesheet" href="main-novedades.css">
+    <link rel="stylesheet" href="main-series.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="container.css">
-    
+
 </head>
+
 <body>
 
 
-    
-    <nav class="navbar">
-        <div id="logo"  class="logo-img">THEMOVIE</div>
-            <ul class="navbar-list">
-                <li class="navbar-item"><a href="#novedades" >Novedades</a></li>
-                <li class="navbar-item"><a href="#series"    >Series</a></li>
-                <li class="navbar-item"><a href="#peliculas" >Peliculas</a></li>
-                <li class="navbar-item"><a href="#favoritos" >Favoritos</a></li>
-        
-            </ul>
-            <div class= "logout">
-                <button class= "btn" type="submit" name="cerrar sesion" >Cerrar Sesion</button>
-                <a href="index.html">cerrar sesion</a>
-            </div>
 
-            <form class="buscador" action="#" method="post"> 
-                <div>
-                    <input type="buscar" placeholder="Busqueda">
+    <nav class="navbar">
+        <div id="logo" class="logo-img">THEMOVIE</div>
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="#novedades">Novedades</a></li>
+            <li class="navbar-item"><a href="#series">Series</a></li>
+            <li class="navbar-item"><a href="#peliculas">Peliculas</a></li>
+            <li class="navbar-item"><a href="#favoritos">Favoritos</a></li>
+
+        </ul>
+        <div class="logout">
+            <button class="btn" type="submit" name="cerrar sesion">Cerrar Sesion</button>
+     
+        </div>
+
+        <form class="buscador" action="#" method="GET">
+            <div>
+                <input type="buscar" placeholder="Busqueda">
+            </div>
+        </form>
+
+        </div>
+
+    </nav>
+
+    <div class="bloque-novedades">
+        <main class="main-novedades">
+            <section class="section" id="novedades">
+                <h1>Novedades</h1>
+    
+                <article class="film">
+                    <div class="img-luca1">
+                        <img src="./img/luca.jpg" alt="luca">
+                    </div>
+                    <div class="luca-text">
+                        <div class="text">
+                            <div class="score">4/5</div>
+    
+                            <h2 class="luca-title">
+                                Luca
+                            </h2>
+                            <h3 class="film-sinopsis">
+                                Ambientada en un precioso pueblo costero de la Riviera italiana,
+                                cuenta una historia sobre el paso a la edad adulta de
+                                un chico que vive un verano inolvidable lleno de helados, 
+                                pasta e infinitos paseos en
+                                scooter.
+                            </h3>
+    
+                            <div class="film-date">2021</div>
+                        </div>
+                    </div>
+                </article>
+                <article class="film">
+                    <div class="img-luca2">
+                        <img src="./img/luca.jpg" alt="luca">
+                    </div>
+                    <div class="luca-text">
+                        <div class="text">
+                            <div class="score">4/5</div>
+    
+                            <h2 class="luca-title">
+                                Luca
+                            </h2>
+                            <h3 class="film-sinopsis">
+                                Ambientada en un precioso pueblo costero de la Riviera italiana,
+                                cuenta una historia sobre el paso a la edad adulta de
+                                un chico que vive un verano inolvidable lleno de helados, 
+                                pasta e infinitos paseos en
+                                scooter.
+                            </h3>
+    
+                            <div class="film-date">2021</div>
+                        </div>
+                    </div>
+                </article>
+    
+            </section>
+        </main>
+    </div>
+    
+
+    <main class="main-series">
+
+        <section class="section" id="series">
+            <h1>Series</h1>
+
+            <article class="film">
+                <div class="item1">
+                    <img src="./img/friends.jpg" alt="friends">
                 </div>
-            </form>
-            
+                <div class="friends-text">
+                    <div class="text">
+                        <div class="score">9/10</div>
+                        <h2 class="friends-title">Friends</h2>
+                        <h3 class="friends-sinopsis">
+                            Relaciones amorosas y divertidas de un 
+                            grupo de amigos que viven en NY. 
+                        </h3>
+                        <div class="friends.date">1994</div>
+                
+            </article>
+        </section>
+    </main>
+
+
+    <main class="main-peliculas">
+        <section class="section" id="peliculas">
+            <h1>Peliculas</h1>
+
             <div class="container">
                 <div class="item1">
-                    <img src="./img/friends.jpg"   alt="friends">
-                </div>      
+                    <img src="./img/unbreakable.jpg" alt="friends">
+                </div>
                 <div class="item2">
-                    <img src="./img/shape-water.jpg"  alt="shape-water">
+                    <img src="./img/shape-water.jpg" alt="shape-water">
                 </div>
                 <div class="item4">
-                    <img src="./img/unbreakable.jpg"  alt="unbreakable">
+                    <img src="./img/unbreakable.jpg" alt="unbreakable">
                 </div>
                 <div class="item3">
-                    <img src="./img/raya.jpg"  alt="raya">
+                    <img src="./img/shape-water.jpg" alt="raya">
                 </div>
                 <div class="item4">
-                    <img src="./img/luca.jpg"  alt="luca">
+                    <img src="./img/unbreakable.jpg" alt="luca">
                 </div>
+            </div>
+        </section>
+    </main>
 
+    <main class="main-favoritos">
+        <section class="section" id="favoritos">
+            <h1>Favoritos</h1>
+
+            <div class="container">
+                <div class="item1">
+                    <img src="./img/shape-water.jpg" alt="friends">
+                </div>
+                <div class="item2">
+                    <img src="./img/shape-water.jpg" alt="shape-water">
+                </div>
+                <div class="item4">
+                    <img src="./img/shape-water.jpg" alt="unbreakable">
+                </div>
+                <div class="item3">
+                    <img src="./img/shape-water.jpg" alt="raya">
+                </div>
+                <div class="item4">
+                    <img src="./img/shape-water.jpg" alt="luca">
+                </div>
             </div>
-            
-            
-            </div>
-         
-    </nav>
- 
-    
-    
+        </section>
+
+    </main>
+
+
+
+
+
 </body>
+
 </html>
