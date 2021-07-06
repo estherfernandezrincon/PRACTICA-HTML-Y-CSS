@@ -1,0 +1,84 @@
+.bloque-favoritos {
+margin-top: 50px;
+margin-left: 1.25rem;
+margin-right: 1.25rem;
+margin-bottom: 2rem;
+
+    
+}
+
+.main-favoritos {
+display: flex;
+justify-content: center;
+}
+
+.section {
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+flex-wrap: wrap;
+}
+
+h1 {
+color: white;
+width: 100%; 
+}
+
+
+* {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.shape-water-title,
+.score,
+.film-date {
+font-size: small;
+font-weight: bold;
+}
+
+.shape-water-sinopsis,
+.shape-water-title {
+color: whitesmoke;
+font-variant: small-caps;
+font-size: small;
+text-shadow: 
+1px 1px 1px rgba(17, 17, 17, 0.35),
+-1px 1px 1px rgba(17, 17, 17, 0.35),
+1px -1px 1px rgba(17, 17, 17, 0.35),
+-1px -1px 1px rgba(17, 17, 17, 0.35);
+}
+
+
+
+.film {
+width: 250px;
+position: relative;
+z-index: 10;
+
+
+}
+
+.text {
+max-height: 90%;
+max-width: 100%
+
+}
+.shape-water-text {
+display: none;
+position: absolute;
+top: 0;
+bottom: 0;
+z-index: 15;
+background-color: rgba(0,0,0, .50);
+color: white;
+
+}
+
+.film:hover .shape-water-text{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+

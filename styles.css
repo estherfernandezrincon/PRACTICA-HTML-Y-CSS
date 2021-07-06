@@ -1,17 +1,17 @@
 
 .cine {
     color: black;
-    text-align: center;
-    background: url(./img/perro.jpg)   no-repeat;
-    display: block;
+   
     padding: 5px;
     margin-left: 10px;
     height: 50px;
     width: 150px;
     font-size: 2rem;
-    position: relative;
+    
     
 }
+
+
 
 .navbar {
     position: fixed;
@@ -19,13 +19,10 @@
     width: 100%;
     top: 0;
     left: 0; 
+    display: flex;
+    align-items: center;
 }
 
-#logo {
-    display: inline-block;  
-    
-
-}
 
 body {
     background: black;
@@ -75,8 +72,7 @@ body {
 img {
     border-style: groove;
     border-color: beige;
-    max-width: 100%;
-
+    max-width: 80%;
 }
 
 .btn {

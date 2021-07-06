@@ -1,5 +1,4 @@
 .navbar{
-
     position: fixed;
     top: 0;
     left:0;
@@ -11,7 +10,8 @@
 .navbar > .navbar-list {
     list-style: none;
     padding: 0;
-    float: left;       
+    float: left;    
+    position: fixed;   
 }
 
 .navbar > .navbar-list .navbar-item {
@@ -30,16 +30,18 @@
     
 }
 
-
-
 .logo-img {
     height: 50px;
     line-height: 50px;
-    margin-left: 2rem;
-    margin-right: 1rem;
+    margin-left: 50px;
+    margin-right: 0;
     text-align: center;
     background-color: black;
     color:white;
+    font-weight: bold;
+    font-size: 2rem;
+    position: fixed;
+    width: 70%;
 }
 
 .buscador , .logout {
@@ -48,12 +50,20 @@
     line-height: 20px;
     margin-top: 1rem;
     padding: 1rem;
+    
+    
 
 }
 
 img  {
     width:250px ;
     height:290px;
+}
+
+.logo-ticket {
+    padding: 15px;
+
+    display: inline-block;
 }
 
 
