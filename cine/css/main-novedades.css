@@ -1,5 +1,5 @@
 .bloque-novedades {
-  margin-top: 80px;
+  margin-top: 90px;
   margin-left: 1.25rem;
   margin-right: 1.25rem;
   margin-bottom: 2rem;
@@ -10,6 +10,7 @@
 .main-novedades {
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
 }
 
 .section {
