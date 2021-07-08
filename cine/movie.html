@@ -7,57 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOVIE</title>
 
-    <link rel="stylesheet" href="./css/reset.css">
-   
+    <link rel="stylesheet" href="./css/reset.css">   
+    <link rel="stylesheet" href="./css/navbar-principal-movie.css">
     <link rel="stylesheet" href="./css/movie.css">
+
 
 </head>
 
 <body>
 
     <nav class="navbar">
-        <div id="logo"  class="logo-img">THEMOVIE</div>
-            <ul class="navbar-list">
-                <li class="navbar-item"><a href="#novedades" >Novedades</a></li>
-                <li class="navbar-item"><a href="#series"    >Series</a></li>
-                <li class="navbar-item"><a href="#peliculas" >Peliculas</a></li>
-                <li class="navbar-item"><a href="#favoritos" >Favoritos</a></li>
-        
-            </ul>
-            <div class= "logout">
-                <button class= "btn" type="submit" name="cerrar sesion" >Cerrar Sesion</button>
+        <img src="./img/ticket2.jpg" alt="ticket">
+            <h1 class="cine">THEMOVIE</h1>
             
-            </div>
-
-            <form class="buscador" action="#" method="post"> 
-                <div>
-                    <input type="buscar" placeholder="Busqueda">
-                </div>
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="#novedades">Novedades</a></li>
+            <li class="navbar-item"><a href="#series">Series</a></li>
+            <li class="navbar-item"><a href="#peliculas">Peliculas</a></li>
+            <li class="navbar-item"><a href="#favoritos">Favoritos</a></li>
+        </ul>
+        <div class="search-logout">
+            <button class="btn" type="submit" name="cerrar sesion">Cerrar Sesion</button>
+            <form  action="index.html" class="search" method="GET">
+                <input type="buscar" placeholder="Busqueda">
             </form>
+        </div>
     </nav>
 
     <div class="main-content">
-        <main class="movie">
-          <section class="long-sinopsis">
-            <h1>THE SHAPE OF WATER</h1>
-            <p>
-                Baltimore, década de 1960. Elisa, muda desde que era un bebé, trabaja como limpiadora nocturna en un centro de
+        <div class="film">The shape of Water</div>
+        <div class="long-sinopsis">
+            <p>Baltimore, década de 1960. Elisa, muda desde que era un bebé, trabaja como limpiadora nocturna en un centro de
                 investigación aeroespacial. Una noche, mientras está limpiando en un zona de alta seguridad, ve cómo llevan al
                 laboratorio una cápsula con un extraño ser en su interior. Se trata de un hombre anfibio, del que se enamora. A
                 partir de entonces, Elisa elabora un plan para liberar al mutante.
             </p>
-                <section class="movie-card">
-                    <video controls class="video" video src="../video/Waterfall - 37088.mp4"></video>             
-                </section>  
-        </main>
-
-        
-            
+        </div>
+        <div class="movie-video">
+            <video controls class="video" video src="../video/Waterfall - 37088.mp4"></video>
+        </div>        
     </div>
-    
-    
-
-    </article>
 
 </body>
 

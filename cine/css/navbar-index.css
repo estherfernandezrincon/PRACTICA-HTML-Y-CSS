@@ -1,0 +1,31 @@
+.cine {
+    color: black;   
+    padding: 5px;
+    margin-left: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 2rem;
+    
+}
+
+.navbar {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0; 
+    display: flex;
+    align-items: center;
+}
+
+
+body {
+    background: black;
+    background: url('../img/movie.jpg') top center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

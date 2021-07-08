@@ -1,0 +1,60 @@
+
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    align-items: center;
+
+}
+
+.register-form {
+    display: flex;
+    align-content: space-around;
+    align-content: flex-end;
+    justify-content: space-around;
+    padding: 0.5em;
+
+}
+
+
+#email , #password {
+    padding: 10px;   
+}
+
+label {
+    font-weight: bold;
+    text-shadow: 
+1px 1px 1px rgba(231, 223, 223, 0.35),
+-1px 1px 1px rgba(231, 223, 223, 0.35),
+1px -1px 1px rgba(231, 223, 223, 0.35),
+-1px -1px 1px rgba(231, 223, 223, 0.35);
+}
+
+
+
+.btn {
+    border-style:  double solid;
+    padding: 10px;
+    width: 70px;
+    height: 30px;
+    margin-left:20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border:  1rem;
+    text-shadow: 
+    1px 1px 1px rgba(17, 17, 17, 0.35),
+    -1px 1px 1px rgba(17, 17, 17, 0.35),
+    1px -1px 1px rgba(17, 17, 17, 0.35),
+    -1px -1px 1px rgba(17, 17, 17, 0.35);
+}
+
+
+@media all and (min-width: 768px) {
+    .cine .signin-container {
+        text-align: center;
+    }
+}

@@ -7,37 +7,40 @@
     <title>NOS HACEMOS UN CINE</title>
 
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/register-form.css">
+    <link rel="stylesheet" href="./css/navbar-index.css">
 
 </head>
 
 <body>
     <nav class="navbar">                
         <img src="./img/ticket2.jpg" alt="ticket">
-            <h1 class="cine">THEMOVIE</h1> 
-    
-        
+            <h1 class="cine">THEMOVIE</h1>     
+        </nav>       
  
-        <div class= "signin-container">
-       
-            <form class="formulario-registro" action="principal.html" method="GET"> 
-                <div id="email">
-                    <input type="email" placeholder="Email">
-                </div>
-                    <div id="password">
-                        <input type="password" placeholder="Password">
-                    </div>
-                        <div>
-                            <button class= "btn" type="submit" name="registro">Registro</button>
-                            
-                        </div>
-                    <div>
-                        <a href="#recupera contraseña" class="get-pswd">Recuperar Contraseña</a>
-                    </div>
-                    
-            </form>
-        </div>
-    </nav>
+    <div class= "signin-container">
+    
+        <form  action="principal.html" method="GET"> 
+            <div class="register-form" >
+                <label for="email" id="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Introduce tu Email">
+            </div>
+            <div class="register-form" >
+                <label for="text">Password</label>
+                <input type="password" id="password" placeholder="Password">
+            </div>
+    
+            <div class="register-form" >
+                <button  type="submit" class= "btn">Registro</button>
+                
+            </div>
+            <div class="register-form">
+                <a href="#recupera contraseña" class="get-pswd">Recuperar Contraseña</a>
+            </div>
+                
+        </form>
+    </div>
+
 
     
     

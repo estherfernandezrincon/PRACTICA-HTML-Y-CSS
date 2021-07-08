@@ -5,12 +5,13 @@
   margin-bottom: 2rem;
 
     
-  }
+}
 
 .main-novedades {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+
 }
 
 .section {
@@ -18,6 +19,7 @@
   justify-content: space-evenly;
   width: 100%;
   flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
 h1 {
@@ -50,18 +52,28 @@ h1 {
 }
 
 
-
 .film {
   width: 250px;
   position: relative;
   z-index: 10;
+   
+}
+
+.img-luca1{
+  position: absolute;
   
-  
+}
+
+.like {
+  position: relative;
+  top:0;
+  bottom:0;
+
 }
 
 .text {
   max-height: 90%;
-  max-width: 100%
+  max-width: 90%
 
 }
 .luca-text {
@@ -72,6 +84,7 @@ h1 {
   z-index: 15;
   background-color: rgba(0,0,0, .50);
   color: white;
+  width: 250px;
   
 }
 
