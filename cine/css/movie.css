@@ -1,30 +1,56 @@
-.main-content{
-    padding: 20px;
-    margin-bottom: 0;
-    bottom:0;
+.grid-container {
+    margin-top: 130px;
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-auto-rows: 2fr;
-    margin-top: 90px;
+    grid-gap: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+  }
+  
+.sinopsis {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    font-size: 1rem;
+    color:black;
+  }
+  
+.video {
+    grid-column: 3;
+    grid-row: 2 / span 2;
+  }
+  
 
-    grid-gap: 15px;
+    
 
-}
-
-
-.long-sinopsis , .film{
-    color: white;
+.contenido-relacinado {
+    background-color: rgb(243, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: row;
+    margin-top: 2rem;
     
 }
 
-.film {
-    font-size: 2rem;
-    align-items: center;
+.img ,
+.actor1 {
+    width: 250px;
+    height: 350px;
+
 }
 
-p{
-    align: center;
+.pelis {
+    display: flex;
+    justify-content:space-evenly;
+    background-color: rgb(243, 231, 231);
+
+
 }
+
+h1 {
+    background-color: rgb(243, 231, 231);
+}
+
+
+
 
 
 

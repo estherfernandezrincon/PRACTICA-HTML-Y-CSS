@@ -3,7 +3,6 @@
   margin-left: 1.25rem;
   margin-right: 1.25rem;
   margin-bottom: 2rem;
-
     
 }
 
@@ -72,7 +71,6 @@ h1 {
   height: 1%;
   position: relative;
   
-  
 }
 
 .like {
@@ -80,10 +78,7 @@ h1 {
   top:0;
   bottom:0;
 
-
 }
-
-
 
 .text {
   max-height: 90%;
@@ -110,3 +105,8 @@ h1 {
 }
 
 
+@media all and (min-width:425px) {
+  .luca-text{
+    z-index: inherit;
+  }
+}
