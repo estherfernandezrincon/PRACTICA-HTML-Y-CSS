@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: gray;
 }
 
 .navbar {
@@ -47,10 +47,16 @@ body {
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
+    padding: 5px;
  
 }
 
-.btn .search{
+.btn {
+    padding: 2px;
+    
+}
+
+.search{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;

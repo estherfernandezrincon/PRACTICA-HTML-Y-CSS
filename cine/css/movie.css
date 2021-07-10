@@ -3,15 +3,29 @@
     margin-bottom: 0;
     bottom:0;
     display: grid;
-    grid-template-columns: repeat (2,200px);
-    grid-auto-rows: 100px;
-  
+    grid-template-columns: 1fr 3fr;
+    grid-auto-rows: 2fr;
+    margin-top: 90px;
+
+    grid-gap: 15px;
+
 }
 
 
 .long-sinopsis , .film{
     color: white;
+    
 }
+
+.film {
+    font-size: 2rem;
+    align-items: center;
+}
+
+p{
+    align: center;
+}
+
 
 
 

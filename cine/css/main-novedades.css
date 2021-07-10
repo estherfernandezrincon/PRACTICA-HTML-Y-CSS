@@ -28,6 +28,7 @@ h1 {
 }
 
 
+
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -56,11 +57,21 @@ h1 {
   width: 250px;
   position: relative;
   z-index: 10;
+  height: 250px;
+  bottom:0;
    
 }
 
 .img-luca1{
-  position: absolute;
+  position: relative;
+  
+}
+
+.svg {
+  width: 10%;
+  height: 1%;
+  position: relative;
+  
   
 }
 
@@ -69,7 +80,10 @@ h1 {
   top:0;
   bottom:0;
 
+
 }
+
+
 
 .text {
   max-height: 90%;
