@@ -1,13 +1,15 @@
 .grid-container {
     margin-top: 85px;
     display: grid;
+    grid-template-columns: 400px 200px 100px;
     grid-gap: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
+    justify-content: stretch;
     padding: 10px;
-  }
-  
+
+}  
 .sinopsis {
-    grid-column: 1 / span 2;
+    display: grid;
+    grid-column: 1 / span 3;
     grid-row: 1;
     font-size: 1rem;
     color:black;
@@ -15,23 +17,40 @@
   }
   
 .video {
-    grid-column: 3;
+    grid-column: 1;
     grid-row: 2 / span 2;
   }
   
-  
+.actor1 {
+  grid-column: 1;
+  grid-row:2;
+}
+.actor1 {
+  grid-column: 2;
+  grid-row:2;
+}
+.actor1 {
+  grid-column: 1;
+  grid-row:3;
+}
+
+.actor4 {
+  grid-column: 2;
+  grid-row:3;
+}
+
 
 .contenido-relacinado {
-    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: row;
     margin-top: 2rem;
+
     
 }
 
 .img ,
-.actor1 {
+.actor1 , .actor2 , .actor3, .actor4{
     width: 250px;
     height: 350px;
 
@@ -40,14 +59,16 @@
 .pelis {
     display: flex;
     justify-content:space-evenly;
-    background-color: black;
+
 
 }
 
 .contenido-relacionado > h1 {
-    background-color: black;
+
     color: white;
     text-align: center;
+    padding: 5px;
+    max-width:100%;
   
 }
 

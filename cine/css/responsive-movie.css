@@ -1,0 +1,66 @@
+
+@media screen and (max-width: 424px) {
+    .grid-container,
+    .sinopsis ,
+    .video,
+    .actor1,
+    .actor2,
+    .actor3,
+    .actor4{
+        padding:10px;
+        margin-top:150px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill , minmax(150px, 1fr));
+
+        justify-content:stretch;
+        grid-gap: 1fr;
+    }
+    .video {
+        grid-column: 1;
+        grid-row: 2;
+
+    }
+    .grid-sinopsis > h1 {
+        grid-column: 1;
+        grid-row:1 ;
+    }
+
+    .grid-sinopsis > h2{
+        grid-column: 1;
+        grid-row:2;
+
+    } 
+
+    .grid-sinopsis > h3{
+        grid-column: 1;
+        grid-row:3 ;
+    }
+
+    .actor1 {
+        grid-column: 1;
+        grid-row: 3 ;
+  
+    }
+    .actor2 {
+        grid-column: 2;
+        grid-row: 3 ;
+    }
+    .actor3 {
+        grid-column: 1;
+        grid-row: 4 ;
+    }
+
+    .actor4 {
+        grid-column: 2;
+        grid-row: 4 ;
+    }
+
+ 
+    
+    .pelis{
+        flex-wrap: wrap;
+    }
+
+
+
+}   
