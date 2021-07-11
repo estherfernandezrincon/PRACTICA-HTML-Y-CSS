@@ -19,17 +19,6 @@
     flex-wrap: wrap;
 }
 
-h1 {
-    color: white;
-    width: 100%; 
-}
-
-
-
-
-* {
-font-family: Arial, Helvetica, sans-serif;
-}
 
 .unbreakable-title,
 .score,
@@ -53,20 +42,8 @@ max-width: 75%;
 
 
 
-.film {
-width: 250px;
-position: relative;
-z-index: 10;
-bottom:0;
 
 
-}
-
-.text {
-max-height: 90%;
-max-width: 100%;
-
-}
 .unbreakable-text {
 display: none;
 position: absolute;
@@ -85,16 +62,3 @@ align-items: center;
 max-width: 80%;
 }
 
-.svg {
-width: 10%;
-
-position: relative;
-
-}
-
-.like {
-position: absolute;
-top:0;
-bottom:0;
-
-}
