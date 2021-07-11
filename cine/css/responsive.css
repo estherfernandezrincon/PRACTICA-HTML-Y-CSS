@@ -44,5 +44,17 @@
         flex: 1;
     }
 
+    .film:hover .shape-water-text,
+    .film:hover .friends-text,
+    .film:hover .unbreakable-text,
+    .film:hover .luca-text
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+        }
+
 }
+
 

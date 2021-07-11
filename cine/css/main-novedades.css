@@ -49,6 +49,8 @@ h1 {
   -1px 1px 1px rgba(17, 17, 17, 0.35),
   1px -1px 1px rgba(17, 17, 17, 0.35),
   -1px -1px 1px rgba(17, 17, 17, 0.35);
+  max-width: 75%;
+ 
 }
 
 
@@ -68,13 +70,13 @@ h1 {
 
 .svg {
   width: 10%;
-  height: 1%;
+
   position: relative;
   
 }
 
 .like {
-  position: relative;
+  position: absolute;
   top:0;
   bottom:0;
 
@@ -88,12 +90,13 @@ h1 {
 .luca-text {
   display: none;
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 25px;
+
   z-index: 15;
   background-color: rgba(0,0,0, .50);
   color: white;
-  width: 250px;
+  
+
   
 }
 
@@ -101,12 +104,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 80%;
+
 
 }
 
-
-@media all and (min-width:425px) {
-  .luca-text{
-    z-index: inherit;
-  }
-}
