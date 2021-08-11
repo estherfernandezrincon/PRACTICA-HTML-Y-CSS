@@ -1,5 +1,5 @@
 .grid-container {
-    margin-top: 85px;
+    margin-top: 105px;
     display: grid;
     grid-template-columns: 400px 200px 100px;
     grid-gap: 10px;
@@ -40,14 +40,7 @@
 }
 
 
-.contenido-relacinado {
-    display: flex;
-    justify-content: center;
-    align-items: row;
-    margin-top: 2rem;
 
-    
-}
 
 .img ,
 .actor1 , .actor2 , .actor3, .actor4{
@@ -57,15 +50,15 @@
 }
 
 .pelis {
-    display: flex;
-    justify-content:space-evenly;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
 
 }
 
 .contenido-relacionado > h1 {
 
-    color: white;
+    color: black;
     text-align: center;
     padding: 5px;
     max-width:100%;

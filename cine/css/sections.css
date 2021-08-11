@@ -1,0 +1,70 @@
+.bloque {
+    margin-top: 90px;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-bottom: 2rem;
+    
+        
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    }
+
+.contenido {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    }
+
+
+
+.title,
+.score,
+.film-date {
+    font-size: small;
+    font-weight: bold;
+
+}
+
+.sinopsis,
+.title {
+    color: whitesmoke;
+    font-variant: small-caps;
+    font-size: small;
+    text-shadow: 
+    1px 1px 1px rgba(17, 17, 17, 0.35),
+    -1px 1px 1px rgba(17, 17, 17, 0.35),
+    1px -1px 1px rgba(17, 17, 17, 0.35),
+    -1px -1px 1px rgba(17, 17, 17, 0.35);
+    max-width: 75%;
+}
+
+
+
+
+
+.film-text {
+    display: none;
+    position: absolute;
+    top: 25px;
+    bottom: 0;
+    z-index: 15;
+    background-color: rgba(0,0,0, .50);
+    color: white;
+
+}
+
+.film:hover .film-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+
+}
+
+

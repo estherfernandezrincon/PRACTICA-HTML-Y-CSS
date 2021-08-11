@@ -8,7 +8,8 @@
 
 .text {
     max-height: 90%;
-    max-width: 90%
+    max-width: 90%;
+
 
 }
 
@@ -28,9 +29,10 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 h1 {
-color: white;
+color: rgb(8, 0, 0);
 width: 100%; 
 }

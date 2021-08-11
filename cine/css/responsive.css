@@ -50,8 +50,9 @@
     .film:hover .luca-text
     {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-shrink: 1;
         max-width: 80%;
         }
 
