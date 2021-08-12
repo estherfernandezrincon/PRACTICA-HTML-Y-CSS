@@ -1,9 +1,10 @@
 .grid-container {
     margin-top: 105px;
     display: grid;
-    grid-template-columns: 400px 200px 100px;
+
     grid-gap: 10px;
-    justify-content: stretch;
+    justify-content: space-around;
+    align-content: space-around;
     padding: 10px;
 
 }  
@@ -21,35 +22,16 @@
     grid-row: 2 / span 2;
   }
   
-.actor1 {
-  grid-column: 1;
-  grid-row:2;
-}
-.actor1 {
-  grid-column: 2;
-  grid-row:2;
-}
-.actor1 {
-  grid-column: 1;
-  grid-row:3;
-}
 
-.actor4 {
-  grid-column: 2;
-  grid-row:3;
-}
-
-
-
-
-.img ,
-.actor1 , .actor2 , .actor3, .actor4{
+.img {
     width: 250px;
     height: 350px;
 
 }
 
-.pelis {
+
+.pelis,
+.actor  {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 

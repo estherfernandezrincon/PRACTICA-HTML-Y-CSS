@@ -14,9 +14,12 @@
 }
 
 .svg {
-    width: 10%;
-    border-color: beige;
+
+    width: 1%;
     position: relative;
+    max-height: 10%;
+    max-width: 10%;
+    color:beige;
     
   }
   
@@ -24,6 +27,7 @@
     position: absolute;
     top:0;
     bottom:0;
+
   
 }
 
