@@ -1,10 +1,10 @@
 body {
-    background-color: white;
+    background-color: black;
 }
 
 .navbar {
     position: fixed;
-    background-color: white;
+    background-color: black;
     width: 100%;
     height: 15%;
     top: 0;
@@ -33,7 +33,7 @@ body {
 
 
 .navbar-item a {
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
     padding:  1rem;
     display: inline-block;
@@ -46,7 +46,7 @@ body {
 .burger-label {
     position: absolute;
     top: .3rem;
-    left: 0;
+    right: 0;
     width: 2rem;
     height: 2rem;
 }
@@ -70,14 +70,12 @@ body {
 
 #burger-checkbox:checked ~ .navbar-list {
     list-style: none;
-    margin: 0;
-    padding: 0;
-
-    display: flex;
+    height: 100vh;
+    width: 80%;
+    max-width:280px;
+    padding-left : 0;
     flex-direction: column;
-    justify-content: space-evenly;
- 
-    opacity: .85;
+    opacity: .65;
 }
 
 .search-logout {
@@ -103,7 +101,7 @@ body {
 }
 
 .cine {
-    color: black;   
+    color: whitesmoke;   
     padding: 5px;
     margin-left: 10px;
     height: 50px;

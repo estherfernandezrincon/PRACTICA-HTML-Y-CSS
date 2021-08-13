@@ -1,5 +1,5 @@
 .cine {
-    color: black;   
+    color: whitesmoke;   
     padding: 5px;
     margin-left: 10px;
     height: 50px;
@@ -10,7 +10,7 @@
 
 .navbar {
     position: fixed;
-    background-color: white;
+    background-color: black;
     width: 100%;
     top: 0;
     left: 0; 

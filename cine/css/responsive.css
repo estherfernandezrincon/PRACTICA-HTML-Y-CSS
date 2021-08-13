@@ -1,20 +1,15 @@
 
-
-
-@media  (min-width: 992px) {
-    .burger-label {
-        display: none;
-    }
-
-    
+@media screen  and  (max-width: 576px) {
+    .contenido {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
   
 
-}
-@media screen  and  (min-width: 760px) {
-    .sections {
-        display: flex;
-        flex-direction: row;
+    }
 
+    .navbar-list {
+        display: none;
     }
 
     .burger-label:before{
@@ -28,16 +23,7 @@
         box-shadow: 0 0.25em 0 0 white, 0 0.5em 0 0 white;
     }
 
-    .navbar-list {
-        flex: 1 0;
-        height: unset;
-        width: unset;
-        max-width: unset;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        background: transparent;
-    }
+ 
 
 }
 
