@@ -12,36 +12,10 @@ body {
     display: flex;
     align-items: center;
     z-index: 99;
-}
-
-.navbar-list  {
-    list-style: none;
-    padding: 0;
-    height: 15%;
-    width: 50%;    
-    display: inline-flex;     
-    margin-left: 50px;
-    margin-right: 50px;
-
-}
-
-.navbar-item {
-    display: inline-flex;  
-    justify-content: center;
-}
-
-
-
-.navbar-item a {
-    color: whitesmoke;
-    text-decoration: none;
-    padding:  1rem;
-    display: inline-block;
-    line-height: 20px;
-    font-weight: bold;
-
     
+
 }
+
 
 .burger-label {
     position: absolute;
@@ -56,26 +30,43 @@ body {
     background-color: black;
     width: 2rem;
     height: .2rem;
-    position: relative;
-    top: right;
+    position: absolute;
     left: .5rem;
     top: .5rem;
-    box-shadow: 0 .9rem 0 0 black, 0 .9rem 0 0 black;
+    box-shadow: 0 .45rem 0 0 black, 0 .9rem 0 0 black;
   
 }
 
-#burger-checkbox {
+.navbar-list {
     display: none;
+    padding: 0;
+}
+
+#burger-checkbox {
+    display:none;
 }
 
 #burger-checkbox:checked ~ .navbar-list {
     list-style: none;
-    height: 100vh;
-    width: 80%;
-    max-width:280px;
-    padding-left : 0;
+    padding: 0;
+    margin: 0;  
+    display: flex;     
     flex-direction: column;
-    opacity: .65;
+    justify-content: space-evenly;
+    height: calc( 100vh - 15%);
+    background-color: pink;
+    opacity: .85;
+}
+
+.navbar-item a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding: 0.5rem;
+
 }
 
 .search-logout {
@@ -88,7 +79,9 @@ body {
 }
 
 .btn {
-    padding: 2px;
+    padding: 5px;
+    margin-top: 0;
+    line-height: 8px;
     
 }
 
@@ -107,15 +100,10 @@ body {
     height: 50px;
     width: 150px;
     font-size: small;
-    
-    
+      
 }
 
-img {
-    border-style: groove;
-    border-color: beige;
-    max-width: 80%;
-}
+
 
 
 

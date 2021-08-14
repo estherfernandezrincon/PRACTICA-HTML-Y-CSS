@@ -1,12 +1,22 @@
-
-@media screen  and  (max-width: 576px) {
-    .contenido {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: stretch;
-  
+@media (max-width: 3200px) {
+    .navbar-list {
+        display: inline-flex;
+        flex-direction: row;
 
     }
+
+ 
+@media (max-width:1010px) {
+
+}
+
+@media  (max-width: 576px) {
+    .contenido {
+        display: flex;
+        align-items: stretch;
+    }
+
+
 
     .navbar-list {
         display: none;
@@ -23,9 +33,31 @@
         box-shadow: 0 0.25em 0 0 white, 0 0.5em 0 0 white;
     }
 
- 
+    .btn {
+
+        line-height:8px;
+        margin-top: 0;
+    }
+
+    .grid-container,
+    .sinopsis ,
+    
+    .video {
+        grid-column: 1;
+        grid-row: 2;
+
+    }
+
+    .pelis{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 1rem;
+
+    }
 
 }
+
 
 
 
