@@ -1,21 +1,9 @@
-@media (max-width: 3200px) {
-    .navbar-list {
-        display: inline-flex;
-        flex-direction: row;
-
-    }
-
- 
-@media (max-width:1010px) {
-
-}
 
 @media  (max-width: 576px) {
     .contenido {
         display: flex;
         align-items: stretch;
     }
-
 
 
     .navbar-list {

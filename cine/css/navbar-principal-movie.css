@@ -20,42 +20,60 @@ body {
 .burger-label {
     position: absolute;
     top: .3rem;
-    right: 0;
+    right: 1rem;
     width: 2rem;
     height: 2rem;
+    z-index: 3;
 }
 
 .burger-label::before {
     content: "";
-    background-color: black;
+    background-color: white;
     width: 2rem;
     height: .2rem;
     position: absolute;
-    left: .5rem;
+    left: .1rem;
     top: .5rem;
-    box-shadow: 0 .45rem 0 0 black, 0 .9rem 0 0 black;
+    box-shadow: 0 .45rem 0 0 white, 0 .9rem 0 0 white;
   
 }
 
 .navbar-list {
+    list-style-type: none;
     display: none;
-    padding: 0;
-}
+    flex-direction: column;
+    height: 100vh;
+    padding-right: 0;
+    width: 80%;
+    max-width: 280px;
+    margin-top: 60px;
+
+    }
 
 #burger-checkbox {
     display:none;
+    z-index: 3;
+    position: absolute;
+    top: 1.5rem;
+    left: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0;
+
 }
 
 #burger-checkbox:checked ~ .navbar-list {
     list-style: none;
-    padding: 0;
-    margin: 0;  
+    padding: 5px;
     display: flex;     
     flex-direction: column;
     justify-content: space-evenly;
-    height: calc( 100vh - 15%);
-    background-color: pink;
+    height: 70vh;
+    background-color: rgb(22, 21, 22);
     opacity: .85;
+    margin-top: 350px;
+
+
 }
 
 .navbar-item a {
@@ -63,11 +81,12 @@ body {
     text-decoration: none;
     text-align: center;
     display: block;
-    font-size: 1.5rem;
-    line-height: 3rem;
-    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: .1rem;
+    padding: .1rem;
 
 }
+
 
 .search-logout {
     display: flex;
@@ -75,7 +94,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 5px;
- 
+
 }
 
 .btn {
@@ -104,8 +123,39 @@ body {
 }
 
 
+@media (min-width: 576px){
 
+}
+@media (min-width: 768px) {
 
+}
+
+@media (min-width: 992px) {
+    .burger-label {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .navbar-list {
+        flex: 1 0;
+        height: 15%;
+        max-width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background: transparent;
+        z-index: 10;
+
+    }
+
+    
+}
+
+@media (min-width: 1200px) {
+}
 
 
 
