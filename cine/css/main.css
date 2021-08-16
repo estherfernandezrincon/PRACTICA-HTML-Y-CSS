@@ -25,16 +25,14 @@
     
   }
 
-img {
-  border-style: none;
-
-}
 
 .img-film > img {
   border-style: solid;
   border-color: beige;
   max-width: 80%;
+
 }
+
 
 
 .like {

@@ -10,6 +10,7 @@
 .sections {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 1rem;
     }
 
@@ -44,19 +45,20 @@
     max-width: 75%;
 }
 
-
-
-
-
 .film-text {
     display: none;
     position: absolute;
-    top: 25px;
+    top: 15px;
     bottom: 0;
     z-index: 15;
     background-color: rgba(0,0,0, .50);
     color: white;
 
+
+}
+
+.img-film {
+    width: 100%;
 }
 
 .film:hover .film-text{
@@ -68,3 +70,31 @@
 }
 
 
+@media (min-width: 580px) {
+
+
+    .contenido {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-around;
+        position: relative;
+        padding-top:1rem;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+
+
+}
+
+@media (min-width: 992px) {
+
+
+}
+
+@media (min-width: 1200px) {
+
+
+}
